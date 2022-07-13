@@ -1,9 +1,9 @@
 body {
-    background-color: ;
+    background-color: darkslategray;
 }
 
 h1 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Gothic;
     font-size: 100px;
     background-color: darkred;
     padding: 30px;
@@ -11,7 +11,31 @@ h1 {
     margin-top: 30px;
 }
 
+h2 {
+    background-color: darkred;
+    width: 100%;
+    text-decoration: underline;
+    text-align: center;
+    padding: 10px;
+}
+
+h3 {
+    color: white;
+}
+
+p {
+    color: white;
+    text-align: justify;
+}
+
 #projects li {
     display: inline-block;
+    padding: 20px;
+    background-color: darkgrey;
     
+}
+
+#projects a {
+    color: darkred;
+    text-shadow: black 1px 1px;
 }
