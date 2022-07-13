@@ -1,14 +1,35 @@
 body {
-    background-color: darkslategray;
+    background-image: url(../Images/minimalism-simple_background-dark.jpg);
+}
+
+nav {
+    background-color: darkred;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;;
+}
+
+nav li {
+    display: inline-block;
+    padding: 25px;
+    font-size: x-large;
+    font-weight: bold;
 }
 
 h1 {
     font-family: Gothic;
     font-size: 100px;
     background-color: darkred;
-    padding: 30px;
+    padding: 40px;
     width: 100%;
-    margin-top: 30px;
+    margin-top: 100px;
+    background-image: url('../Images/7e3bc06df1cfd2b418d8b07355266e78.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-shadow: white 2px 2px 2px;
+    border-bottom: dashed black 5px;
 }
 
 h2 {
@@ -19,13 +40,21 @@ h2 {
     padding: 10px;
 }
 
-h3 {
+#welcome {
     color: white;
+    text-align: center;
+    font-size: xx-large;
 }
 
-p {
+.about {
     color: white;
-    text-align: justify;
+    text-align: center;
+    margin: 10px 50px;
+}
+
+#projects {
+    text-align: center;
+    
 }
 
 #projects li {
