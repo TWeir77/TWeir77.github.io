@@ -1,5 +1,8 @@
 body {
     background-image: url(../Images/minimalism-simple_background-dark.jpg);
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }
 
 nav {
@@ -15,6 +18,11 @@ nav li {
     display: inline-block;
     padding: 25px;
     font-size: x-large;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
     font-weight: bold;
 }
 
@@ -37,19 +45,41 @@ h2 {
     width: 100%;
     text-decoration: underline;
     text-align: center;
-    padding: 10px;
+    padding: 10px 0;
+    margin: 0;
+    
 }
 
 #welcome {
     color: white;
     text-align: center;
     font-size: xx-large;
+    margin-bottom: 75px;
+}
+
+#pfp {
+    text-align: center;
+}
+
+#pfp img {
+    height: 250px;
+    width: 250px;
+    border-radius: 15%;
+    padding: 30px;
+    margin-bottom: 90px;
+}
+
+#bio {
+    width: 100%;
+    padding: 0;
+    margin: 0;
 }
 
 .about {
     color: white;
     text-align: center;
-    margin: 10px 50px;
+    margin: 10px 80px;
+    margin-bottom: 100px;
 }
 
 #projects {
@@ -57,14 +87,37 @@ h2 {
     
 }
 
+#projects ul {
+    padding: 0;
+}
+
 #projects li {
     display: inline-block;
     padding: 20px;
+    width: 100px;
     background-color: darkgrey;
-    
+    margin-bottom: 80px;
 }
 
 #projects a {
     color: darkred;
     text-shadow: black 1px 1px;
+}
+
+#contact {
+    width: 100%;
+    background-color: darkred;
+    text-align: center;
+    bottom: 0;
+}
+
+#contact ul {
+    padding: 0;
+    margin: 0;
+}
+
+#contact li {
+    display: inline-block;
+    font-size: larger;
+    padding: 20px;
 }
