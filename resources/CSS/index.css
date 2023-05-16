@@ -1,113 +1,166 @@
+html {
+    scroll-padding-top: 100px;
+    scroll-behavior: smooth;
+
+}
+
 body {
-    background-image: url(../Images/minimalism-simple_background-dark.jpg);
+    background-color: rgb(35, 35, 35);
+    font-family: 'Prompt', sans-serif;
     margin: 0;
     padding: 0;
     width: 100%;
 }
 
+
+/* NAV BAR */
 nav {
-    background-color: darkred;
+    background-color: rgb(227, 20, 20);
+    display: flex;
+    justify-content: space-between;
     width: 100%;
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 10;;
+    z-index: 10;
+    ;
+}
+
+nav #my-logo {
+    border: black solid 4px;
+    font-family: 'Righteous', cursive;
+    padding: 12px;
+    margin: 12px;
 }
 
 nav li {
     display: inline-block;
-    padding: 25px;
+    padding: 7px;
+    padding-right: 25px;
     font-size: x-large;
 }
 
 nav a {
     text-decoration: none;
-    color: black;
+    color: rgb(0, 0, 0);
     font-weight: bold;
 }
 
-h1 {
-    font-family: Gothic;
-    font-size: 100px;
-    background-color: darkred;
-    padding: 40px;
-    width: 100%;
-    margin-top: 100px;
-    background-image: url('../Images/7e3bc06df1cfd2b418d8b07355266e78.gif');
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-shadow: white 2px 2px 2px;
-    border-bottom: dashed black 5px;
+
+/* HEADER */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 200px auto;
 }
 
-h2 {
-    background-color: darkred;
+#intro {
+    font-family: 'Prompt', sans-serif;
+    font-size: 40px;
+    color: rgb(211, 211, 211);
+    padding: 40px;
+    padding-bottom: 0;
+    width: auto;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 70px;
+    text-shadow: rgb(227, 20, 20) 2px 2px;
+}
+
+#intro-name {
+    font-size: 100px;
+    font-family: 'Righteous', cursive;
+    color: rgb(227, 20, 20);
+    text-shadow: rgb(211, 211, 211) 2px 2px;
+}
+
+#intro-link {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(227, 20, 20);
+    border: rgb(211, 211, 211) solid 2px;
+    border-radius: 30px;
+    padding: 5px 15px;
+    margin: 15px;
+    text-decoration: none;
+}
+
+
+/* SECTION CSS */
+.section {
+    margin: 200px auto;
+}
+
+.section-title {
     width: 100%;
-    text-decoration: underline;
+    color: rgb(227, 20, 20);
+    font-size: 60px;
     text-align: center;
     padding: 10px 0;
     margin: 0;
-    
+
 }
 
-#welcome {
-    color: white;
-    text-align: center;
-    font-size: xx-large;
-    margin-bottom: 75px;
+
+/* ABOUT ME */
+#bio {
+    width: 70%;
+    padding: 0;
+    margin: 15%;
+}
+
+#profile {
+    display: flex;
 }
 
 #pfp {
-    text-align: center;
-}
-
-#pfp img {
     height: 250px;
     width: 250px;
     border-radius: 15%;
     padding: 30px;
-    margin-bottom: 90px;
-}
-
-#bio {
-    width: 100%;
-    padding: 0;
-    margin: 0;
 }
 
 .about {
     color: white;
+    display: flex;
     text-align: center;
-    margin: 10px 80px;
-    margin-bottom: 100px;
+    margin: auto 50px;
+    font-size: 18px;
 }
 
 #projects {
     text-align: center;
-    
+
 }
 
-#projects ul {
+#project-container {
     padding: 0;
+    display: flex;
+    flex-direction: column;
 }
 
-#projects li {
-    display: inline-block;
+#project-card {
     padding: 20px;
     width: 100px;
-    background-color: darkgrey;
+    background-color: rgb(169, 169, 169);
     margin-bottom: 80px;
 }
 
+#project-card h3 {
+    font-size: 30px;
+}
+
 #projects a {
-    color: darkred;
+    color: rgb(227, 20, 20);
     text-shadow: black 1px 1px;
 }
 
 #contact {
     width: 100%;
-    background-color: darkred;
+    background-color: rgb(227, 20, 20);
     text-align: center;
+    margin-bottom: 0;
     bottom: 0;
 }
 
@@ -120,4 +173,11 @@ h2 {
     display: inline-block;
     font-size: larger;
     padding: 20px;
+    font-weight: 600;
+}
+
+#contact a img {
+    max-height: 1.5rem;
+    position: relative;
+    top: 5px;
 }

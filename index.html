@@ -1,48 +1,77 @@
 <html>
-    <head>
-        <title>Tanner Weir Portfolio</title>
-        <link rel="stylesheet" href="./resources/CSS/index.css" type="text/css">
-    </head>
+
+<head>
+    <title>Tanner Weir</title>
+    <link rel="stylesheet" href="./resources/CSS/index.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt&family=Righteous&display=swap" rel="stylesheet">
+</head>
+
 <body>
     <nav>
+        <h2 id="my-logo"><a href='#top'>TW</a></h2>
         <ul>
-            <li><a href="#top">Main</a></li>
-            <li><a href="#bio">About Me</a></li>
             <li><a href="#projects">Projects</a></li>
+            <li><a href="#bio">About</a></li>
+            <li><a href="#resume">Resume</a></li>
             <li><a href="#contact">Contact</a></li>
+            <li><a href="https://github.com/TWeir77" target="_blank">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/tanner-weir-33b04416a/" target="_blank">Linkedin</a></li>
         </ul>
     </nav>
- <header>
-  <h1 id="name">Tanner Weir</h1>
-  <h3 id="welcome">Welcome to Tanner Weir's portfolio!</h3>
- </header>
- <div id="pfp">
-    <img src="./resources/Images/Gurren_Lagann-Lit_Yoko.png" alt="">
-    <img src="./resources/Images/Kamina_001.webp" alt="">
-    <img src="./resources/Images/why-eyes-are-at-the-front-of-our-heads-photo-u1.jpg" alt="">
- </div>
- <div id="bio">
-  <h2>About Me</h2>
-  <p class="about">Having spent my life entranced with technology and computers, I recently picked up the skills to not only build my own computer, but to program it as well! 
-   With multiple courses under my belt, and several projects completed, I am confident in my ability as a full-stack web developer. Below you will find my portfolio
-   that includes a few of my exemplary projects, demonstrating my skills with both static and fluid site building. Along with my knowledge of code, I am confident 
-  in my creativity and talent for creating unique aesthetics within my projects.</p>
- </div>
- <div id="projects">
-  <ul>
-   <li><h3><a href="">Project 1</a></h3></li>
-   <li><h3><a href="">Project 2</a></h3></li>
-   <li><h3><a href="">Project 3</a></h3></li>
-  </ul>
- </div>
- <footer id="contact">
-    <ul>
-        <li>Email: tanner.weir15@gmail.com</li>
-        <li>Phone: (650) 504-1618</li>
-        <li>GitHub: </li>
-        <li>LinkedIn</li>
-    </ul>
- </footer>
+    <header>
+        <h1 id="intro">Hi There! My name is<br><span id="intro-name">Tanner Weir.</span><br>I'm a Web
+            Developer.<br></h1>
+        <a id='intro-link' href="#projects">Portfolio</a>
+    </header>
+
+    <div id="projects" class="section">
+        <h2 class="section-title">Projects</h2>
+        <ul id="project-container">
+            <li class="project-card">
+                <h3><a href="">Luminary Bay Farms</a></h3>
+            </li>
+            <li class="project-card">
+                <h3><a href="">The Generator</a></h3>
+            </li>
+            <li class="project-card">
+                <h3><a href="">FlashCodes</a></h3>
+            </li>
+        </ul>
+    </div>
+
+    <div id="bio" class="section">
+        <h2 class="section-title">About Me</h2>
+        <div id="profile">
+            <img id='pfp' src="./resources/Images/why-eyes-are-at-the-front-of-our-heads-photo-u1.jpg" alt="">
+            <p class="about">Having spent my life entranced with technology and computers, I recently picked up the
+                skills
+                to not only build my own computer, but to program it as well!
+                With multiple courses under my belt, and several projects completed, I am confident in my ability as a
+                full-stack web developer. Below you will find my portfolio
+                that includes a few of my exemplary projects, demonstrating my skills with both static and fluid site
+                building. Along with my knowledge of code, I am confident
+                in my creativity and talent for creating unique aesthetics within my projects.</p>
+        </div>
+        <div id="skills">
+
+        </div>
+        <div id="hobbies">
+
+        </div>
+    </div>
+
+    <footer id="contact" class="section">
+        <ul>
+            <li>Email: tanner.weir15@gmail.com</li>
+            <li>Phone: (650) 504-1618</li>
+            <li><a href="https://github.com/TWeir77" target="_blank"><img src="./resources/Images/GitHub-Logo.png"
+                        alt="GitHub Profile"></a></li>
+            <li><a href="https://www.linkedin.com/in/tanner-weir-33b04416a/" target="_blank"><img
+                        src="./resources/Images/LinkedIn-Logo.png" alt="Linkedin Profile"></a></li>
+        </ul>
+    </footer>
 </body>
- 
+
 </html>
