@@ -6,7 +6,6 @@ html {
 
 body {
     background-color: rgb(0, 0, 0);
-    /* background-image: (url(../Images/minimalism-simple_background-dark.jpg)); */
     font-family: 'Prompt', sans-serif;
     margin: 0;
     padding: 0;
@@ -26,6 +25,10 @@ nav {
     z-index: 10;
 }
 
+#mobile-nav {
+    display: none;
+}
+
 nav #my-logo {
     border: black solid 4px;
     font-family: 'Righteous', cursive;
@@ -33,17 +36,52 @@ nav #my-logo {
     margin: 12px;
 }
 
+nav ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    height: 86px;
+    justify-items: center;
+    margin: 0;
+}
+
 nav li {
     display: inline-block;
     padding: 7px;
+    margin: auto 0;
     padding-right: 25px;
-    font-size: x-large;
+    font-size: 24px;
 }
 
 nav a {
     text-decoration: none;
     color: rgb(0, 0, 0);
     font-weight: bold;
+}
+
+@media only screen and (max-width: 850px) {
+    nav li {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    nav ul {
+        grid-template-columns: 1fr 1fr 1fr;
+        direction: rtl;
+        padding-right: 15px;
+    }
+
+    nav li {
+        padding-right: 7px;
+    }
+
+    #desktop-nav {
+        display: none;
+    }
+
+    #mobile-nav {
+        display: inline-grid;
+    }
 }
 
 
@@ -53,12 +91,11 @@ nav a {
     border-bottom: crimson ridge 10px;
 }
 
-.header {
+header {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     margin: 50px 0;
-    height: 50%;
 }
 
 #header-pfp {
@@ -76,8 +113,6 @@ nav a {
     align-items: center;
     justify-content: center;
     padding: 0 30px;
-    /* border-top: crimson ridge 10px; */
-    /* border-bottom: crimson ridge 10px; */
     border-radius: 45px;
 }
 
@@ -139,16 +174,56 @@ nav a {
     }
 }
 
-@media only screen and (max-width: 1000px) {
-    .header {
+@media only screen and (max-width: 950px) {
+    header {
         height: 30%;
         justify-content: center;
+    }
+
+    #header-pfp {
+        width: 25%;
+    }
+
+    #intro {
+        font-size: 20px;
+    }
+
+    #intro-name {
+        font-size: 50px;
+    }
+
+    #intro-blurb {
+        font-size: 14px;
+        margin: 25px 4%;
+
     }
 }
 
 @media only screen and (max-width: 750px) {
-    .header {
-        height: 20%;
+    #header {
+        height: 25%;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    #header {
+        flex-direction: column-reverse;
+        margin-bottom: 25px;
+    }
+
+    #header-pfp {
+        width: 50%;
+    }
+
+    #intro-blurb p {
+        padding: 0 15px;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    #intro-name {
+        font-size: 38px;
     }
 }
 
