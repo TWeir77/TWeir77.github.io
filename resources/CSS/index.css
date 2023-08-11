@@ -474,10 +474,8 @@ header {
     box-sizing: border-box;
 }
 
-#resume-link[href$=".pdf"]::after {
-    content: url(../images/pdf-icon.png);
-    vertical-align: sub;
-    text-decoration: none;
+#resume-link img {
+    vertical-align: middle;
 }
 
 @media only screen and (max-width: 1350px) {
