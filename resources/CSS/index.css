@@ -481,7 +481,7 @@ header {
 @media only screen and (max-width: 1350px) {
     .skills-container {
         width: 100%;
-        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-columns: 3fr 4fr 3fr;
     }
 
     .about {
@@ -489,7 +489,7 @@ header {
     }
 }
 
-@media only screen and (max-width: 680px) {
+@media only screen and (max-width: 750px) {
     .desktop-about {
         display: none;
     }
@@ -509,7 +509,7 @@ header {
 
 @media only screen and (max-width: 500px) {
     .skills-container {
-        grid-template-columns: 3fr 5fr;
+        grid-template-columns: 4fr 5fr;
         row-gap: 5%;
     }
 
