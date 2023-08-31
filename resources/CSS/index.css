@@ -15,7 +15,7 @@ body {
 
 /* NAV BAR */
 nav {
-    background-color: rgb(194, 0, 40);
+    background-color: rgb(163, 0, 33);
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -530,7 +530,7 @@ header {
 /* Contact Section */
 #contact {
     width: 100%;
-    background-color: rgb(194, 0, 40);
+    background-color: rgb(163, 0, 33);
     text-align: center;
     margin-bottom: 0;
     bottom: 0;
