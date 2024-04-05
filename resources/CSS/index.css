@@ -30,7 +30,7 @@ nav {
 }
 
 nav #my-logo {
-    border: black solid 4px;
+    border: rgb(255, 255, 255) solid 4px;
     font-family: 'Righteous', cursive;
     padding: 12px;
     margin: 12px;
@@ -54,8 +54,9 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 @media only screen and (max-width: 850px) {
@@ -138,8 +139,8 @@ header {
     font-size: 30px;
     font-family: 'Racing Sans One', cursive;
     font-weight: 300;
-    color: rgb(86, 238, 244);
-    border: rgb(211, 211, 211) solid 2px;
+    color: rgb(255, 255, 255);
+    border: rgb(255, 255, 255) solid 2px;
     border-radius: 30px;
     padding: 5px 15px;
     margin: 15px;
@@ -150,15 +151,15 @@ header {
     display: flex;
     justify-content: center;
     text-align: center;
-    color: rgb(169, 169, 169);
+    color: #a9a9a9;
     font-family: 'Prompt', sans-serif;
     font-size: 20px;
     margin: 50px 8%;
 }
 
 #intro-blurb p {
-    border-left: 2px solid rgb(86, 238, 244);
-    border-right: 2px solid rgb(86, 238, 244);
+    border-left: 2px solid rgb(255, 255, 255);
+    border-right: 2px solid rgb(255, 255, 255);
     padding: 0 50px;
     width: 80%;
 }
@@ -235,7 +236,7 @@ header {
 
 .section-title {
     width: 40%;
-    color: rgb(86, 238, 244);
+    color: rgb(255, 255, 255);
     font-family: 'Racing Sans One', cursive;
     font-size: 60px;
     font-weight: 500;
@@ -245,8 +246,8 @@ header {
     margin: 10px auto 30px;
     position: relative;
     top: 10px;
-    border-left: solid rgb(86, 238, 244) 5px;
-    border-right: solid rgb(86, 238, 244) 5px;
+    border-left: solid rgb(255, 255, 255) 5px;
+    border-right: solid rgb(255, 255, 255) 5px;
     text-shadow: black 2px 2px;
 }
 
@@ -350,7 +351,7 @@ header {
 
 .project-img:hover,
 .project-link:hover {
-    border-color: rgb(86, 238, 244);
+    border-color: rgb(194, 0, 40);
 }
 
 @media only screen and (max-width: 1500px) {
@@ -466,8 +467,8 @@ header {
 
 #resume-link {
     color: white;
-    border: rgb(86, 238, 244) solid 3px;
-    border-bottom: rgb(86, 238, 244) ridge 6px;
+    border: rgb(255, 255, 255) solid 3px;
+    border-bottom: rgb(255, 255, 255) ridge 6px;
     border-radius: 20px;
     padding: 5% 8%;
     margin: 1.5% auto auto;
