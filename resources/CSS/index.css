@@ -295,7 +295,7 @@ header {
     padding: 20px;
     width: 75%;
     background-color: rgb(169, 169, 169);
-    margin: 20px 25px;
+    margin: 20px auto;
 }
 
 .project-description {
@@ -407,6 +407,10 @@ header {
 @media only screen and (max-width: 500px) {
     .project-img {
         height: 250px;
+    }
+
+    .project-card {
+        padding: 20px 2.5%;
     }
 }
 
