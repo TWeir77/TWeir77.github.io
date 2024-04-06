@@ -46,9 +46,8 @@ nav ul {
 
 nav li {
     display: inline-block;
-    padding: 7px;
+    padding: 7px 12px;
     margin: auto 0;
-    padding-right: 25px;
     font-size: 24px;
 }
 
@@ -69,11 +68,11 @@ nav a {
     nav ul {
         grid-template-columns: 1fr 1fr 1fr;
         direction: rtl;
-        padding-right: 15px;
+        padding-right: 8px;
     }
 
     nav li {
-        padding-right: 7px;
+        padding: 7px;
     }
 
     #desktop-nav {
@@ -82,6 +81,12 @@ nav a {
 
     #mobile-nav {
         display: inline-grid;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    nav li {
+        font-size: 12px;
     }
 }
 
